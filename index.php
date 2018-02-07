@@ -11,8 +11,6 @@
         <button class="oferta">Zobacz ofertę</button>
         
         
-        
-        
         <?php
         
         ?>
