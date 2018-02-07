@@ -9,3 +9,7 @@
     margin: 0 auto;
     display: block;
 }
+
+td img {
+    width: 100px;
+}
