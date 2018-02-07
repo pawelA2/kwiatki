@@ -19,10 +19,10 @@
        echo '<div class="tabela"><table class="table table-striped">';
        
 echo '<tr><thead class="thead-dark">';
-echo '<th>ilosc</th>';
-echo '<th>asortyment</th>';
-echo '<th>cena_za_szt</th>';
-echo '<th>zdjecie_asort</th>';
+echo '<th>Ilość</th>';
+echo '<th>Asortyment</th>';
+echo '<th>Cena za szt.</th>';
+echo '<th>Zdjęcie</th>';
 echo '</tr>';
 $result = mysqli_query($conn, 'SELECT ilosc, asortyment, cena_za_szt, zdjecie_asort FROM oferta');
 
