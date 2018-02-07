@@ -14,6 +14,25 @@
        }
        mysqli_query($conn, 'SET NAMES \'utf8\'');
        
+       echo '<table>';
+echo '<tr>';
+echo '<th>ilosc</th>';
+echo '<th>asortyment</th>';
+echo '<th>cena_za_szt</th>';
+echo '<th>zdjecie_asort</th>';
+echo '</tr>';
+$result = mysqli_query($conn, 'SELECT ilosc, asortyment, cena_za_szt, zdjecie_asort FROM oferta');
+
+while (($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) != NULL) {
+           echo '<tr>';
+           echo '<td>' . $row['ilosc'] . '</td>';
+           echo '<td>' . $row['asortyment'] . '</td>';
+           echo '<td>' . $row['cena_za_szt'] . '</td>';
+           echo '<td>' . $row['zdjecie_asort'] . '</td>';
+           echo '</tr>';
+}
+mysqli_free_result($result);
+echo '</table>';
        
        mysqli_close($conn);
        
