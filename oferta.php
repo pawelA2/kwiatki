@@ -13,7 +13,6 @@
            die('Could not connect to MySQL: ' . mysqli_connect_error());
        }
        mysqli_query($conn, 'SET NAMES \'utf8\'');
-
        
        
        mysqli_close($conn);
