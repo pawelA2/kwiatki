@@ -6,6 +6,13 @@
         <title></title>
     </head>
     <body>
+        
+        <button class="zamowienie" >Złóż Zamówienie</button>
+        <button class="oferta">Zobacz ofertę</button>
+        
+        
+        
+        
         <?php
         
         ?>
