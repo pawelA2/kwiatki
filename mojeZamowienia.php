@@ -8,7 +8,7 @@
 
         <?php
         
-        $conn = mysqli_connect('gitner.pl', 'gitner_login', '', 'gitner_login', '3306');
+        $conn = mysqli_connect('gitner.pl', 'gitner_login', 'P@ssw0rd123', 'gitner_login', '3306');
         if (!$conn) {
             die('Could not connect to MySQL: ' . mysqli_connect_error());
         }
