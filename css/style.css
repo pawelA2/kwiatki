@@ -6,4 +6,6 @@
 
 .tabela {
     width: 60%;
+    padding-left: auto;
+    padding-right: auto;
 }
