@@ -6,4 +6,10 @@
 
 .tabela {
     width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+
+td img {
+    width: 100px;
 }
